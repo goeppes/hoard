@@ -1,0 +1,26 @@
+{
+  "item1": [
+    "path1/item1",
+    "path2/item1",
+    "path3/item1",
+    "path4/item1"
+  ],
+  "item2": [
+    "path5/item2",
+    "path6/item2",
+    "path7/item2",
+    "path8/item2"
+  ],
+  "item3": [
+    "path1/item3",
+    "path2/item3",
+    "path5/item3",
+    "path6/item3"
+  ],
+  "item4": [
+    "path3/item4",
+    "path4/item4",
+    "path7/item4",
+    "path8/item4"
+  ]
+}
