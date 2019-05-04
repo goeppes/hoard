@@ -2,7 +2,6 @@ pipeline {
   agent {
     docker {
       image 'rust:1.34'
-      args "-v $WORKSPACE/target:/target"
     }
   }
 
