@@ -12,7 +12,9 @@ pipeline {
 
   stages {
     stage('Build') {
-      sh "cargo build"
+      steps {
+        sh "cargo build"
+      }
     }
   }
 
