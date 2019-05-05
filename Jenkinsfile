@@ -18,8 +18,10 @@ pipeline {
   }
 
   post {
-    always {
-      archiveArtifacts artifacts: 'target/debug/hoard', onlyIfSuccessful: true
+    success {
+      archiveArtifacts artifacts: 'target/debug/hoard', fingerprint: true
+    }
+    cleanup {
       cleanWs()
     }
   }
